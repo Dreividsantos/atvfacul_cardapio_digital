@@ -1,4 +1,5 @@
 Olá mundo =) 
+
 Esse é uma Atividade Contextualizada da disciplica de Usabilidade e Interface Homem Máquina minha faculdade, da minha faculdade. 
 
 Onde foi solicitado que fosse elaborado um algoritmo HTML para um sistema de cardápio digital interativo em um restaurante fast food.
