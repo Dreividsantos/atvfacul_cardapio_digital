@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.categoria {
+    margin-bottom: 30px;
+}
+
+.categoria h2 {
+    color: #007bff;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-preco {
+    flex: 0 0 80px;
+    text-align: right;
+}
+
+.carrinho {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.carrinho h3 {
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.carrinho table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.carrinho table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+}
+
+.finalizacao {
+    margin-top: 30px;
+}
+
+.finalizacao label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.finalizacao input[type="text"], 
+.finalizacao input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.finalizacao button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.finalizacao button:hover {
+    background-color: #0056b3;
+}
